@@ -1,0 +1,107 @@
+.coverBottomIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md) var(--br-md) var(--br-md) 0;
+  width: 1581px;
+  height: 806px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.rEGISTERNOWB {
+  position: relative;
+  font-size: var(--subtitel-size);
+  display: inline-block;
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--withe);
+  text-align: center;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--color-red);
+  position: absolute;
+  top: 672px;
+  left: 661px;
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton:hover {
+  background-color: var(--color-green);
+}
+.coverTopIcon {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 247.33px;
+  height: 145.35px;
+  object-fit: cover;
+}
+.detailsAboutInternshipProgr {
+  margin: 0;
+  position: absolute;
+  top: 104px;
+  left: 608px;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+  display: inline-block;
+  width: 1256px;
+}
+.asPerTheRegulationsFromVa,
+.weProvideInternshipOn {
+  position: absolute;
+  left: 98px;
+  font-weight: 600;
+  display: inline-block;
+}
+.asPerTheRegulationsFromVa {
+  margin: 0;
+  top: 184px;
+  font-size: inherit;
+  font-family: inherit;
+  text-align: justify;
+  width: 717px;
+}
+.weProvideInternshipOn {
+  top: 401px;
+}
+.machineLearningP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.javaProgrammingAnd {
+  margin: 0;
+}
+.machineLearningArtificialIn {
+  position: absolute;
+  top: 447px;
+  left: 98px;
+  font-weight: 600;
+  display: inline-block;
+}
+.imageIcon {
+  position: absolute;
+  top: 231px;
+  left: 918px;
+  width: 640px;
+  height: 380px;
+  object-fit: cover;
+}
+.internshipProgramDiv {
+  position: relative;
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 806px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--withe);
+  font-family: var(--source-sans-pro-48px-bold);
+}

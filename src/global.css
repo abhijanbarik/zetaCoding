@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+@font-face {
+  font-family: "JK Abode";
+  src: url("../public/JKAbode-Demo.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "IRANSansXFaNum";
+  src: url("../public/IRANSansWeb(FaNum).ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --source-sans-pro-48px-bold: "Source Sans Pro";
+  --font-baloo-bhaijaan: "Baloo Bhaijaan";
+  --font-baloo-da-2: "Baloo Da 2";
+  --font-baloo-paaji: "Baloo Paaji";
+  --small: "Open Sans";
+  --subtitel: IRANSansXFaNum;
+  --titel: "JK Abode";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --small-size: 12px;
+  --font-size-4xs: 14px;
+  --font-size-3xs: 15px;
+  --font-size-2xs: 17.73px;
+  --font-size-xs: 18px;
+  --font-size-sm: 19.5px;
+  --font-size-base: 20px;
+  --subtitel-size: 24px;
+  --font-size-xl: 32px;
+  --source-sans-pro-48px-bold-size: 36px;
+  --titel-size: 96px;
+
+  /* Colors */
+  --color-tan: #fcb886;
+  --withe: #fff;
+  --schemas-jnt-primary-color: #3949ab;
+  --ed-tech-primary: #253685;
+  --color-indigo-300: #2f2965;
+  --color-indigo-400: #0a0450;
+  --color-indigo-500: rgba(9, 3, 79, 0.81);
+  --schemas-jnt-secondary-dark-color-old: #e6e9fa;
+  --color-gray-200: #d9d9d9;
+  --color-gray-300: #6a5b5b;
+  --color-red: #d80000;
+  --color-green: rgba(21, 227, 14, 0.84);
+  --color-black: #000;
+  --color-brown: #e55733;
+  --color-orange-100: #f5bd33;
+  --color-orange-200: #f59f3a;
+
+  /* Gaps */
+  --gap-0: 0px;
+
+  /* Paddings */
+  --padding-xs: 10px;
+  --padding-sm: 12px;
+  --padding-md: 24px;
+  --padding-lg: 25px;
+  --padding-xl: 72px;
+
+  /* border radiuses */
+  --br-2xs: 4px;
+  --br-xs: 8.86px;
+  --br-sm: 10px;
+  --br-md: 12px;
+  --br-lg: 20px;
+  --br-xl: 30px;
+}

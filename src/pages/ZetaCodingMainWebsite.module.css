@@ -1,0 +1,643 @@
+.lOGINB,
+.zETACODINGButton {
+  position: relative;
+  display: inline-block;
+}
+.zETACODINGButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 35px;
+  font-family: var(--font-baloo-bhaijaan);
+  color: var(--ed-tech-primary);
+  text-align: left;
+  width: 224px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.lOGINB {
+  font-size: var(--subtitel-size);
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--withe);
+  text-align: center;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--color-indigo-400);
+  position: absolute;
+  top: 0;
+  left: 533.19px;
+  border-radius: var(--br-sm);
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameButton:hover {
+  background-color: rgba(9, 3, 79, 0.77);
+}
+.cOURSESButton {
+  top: 12px;
+  left: 0;
+  width: 246.84px;
+  height: 38.78px;
+}
+.cOURSESButton,
+.gALLERYButton,
+.uPCOMINGCLASSESButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  font-size: var(--subtitel-size);
+  font-weight: 600;
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--ed-tech-primary);
+  text-align: left;
+  display: inline-block;
+}
+.gALLERYButton {
+  top: 11.22px;
+  left: 146.23px;
+  width: 268.58px;
+  height: 38.78px;
+}
+.uPCOMINGCLASSESButton {
+  top: 12px;
+  left: 280px;
+}
+.groupDiv {
+  position: relative;
+  width: 653.19px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.frameDiv,
+.navigationBarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameDiv {
+  flex: 1;
+  justify-content: space-between;
+}
+.navigationBarDiv {
+  align-self: stretch;
+  background-color: var(--color-tan);
+  height: 106px;
+  flex-shrink: 0;
+  padding: var(--padding-lg) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.imageIcon {
+  max-width: 50%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.eXPLOREOPPORTUNITIESFORSTUD,
+.learnIndustryRelevantSkills {
+  position: relative;
+  display: inline-block;
+}
+.learnIndustryRelevantSkills {
+  font-size: var(--subtitel-size);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-baloo-da-2);
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--ed-tech-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 610px;
+  height: 80px;
+}
+.rectangleButton:hover {
+  background-color: rgba(37, 55, 133, 0.8);
+}
+.signUpDiv {
+  position: absolute;
+  top: 25px;
+  left: 265px;
+  font-size: var(--subtitel-size);
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--withe);
+  text-align: left;
+  display: inline-block;
+}
+.frameInput,
+.signUpButton {
+  border: 0;
+  position: absolute;
+  left: 0;
+  width: 610px;
+  height: 80px;
+}
+.signUpButton {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  top: 102px;
+}
+.frameInput {
+  background-color: var(--withe);
+  top: 0;
+  border-radius: var(--br-sm);
+  overflow: hidden;
+}
+.groupDiv1 {
+  position: relative;
+  width: 610px;
+  height: 182px;
+  flex-shrink: 0;
+}
+.bySharingYour {
+  color: var(--withe);
+}
+.tERMSCONDITIONS {
+  color: var(--ed-tech-primary);
+}
+.bySharingYourEmailYourAg,
+.keepMeUpToDateOnClassEv {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.bySharingYourEmailYourAg {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 31px;
+  left: 2px;
+  font-size: var(--font-size-xs);
+  font-family: var(--source-sans-pro-48px-bold);
+  text-align: left;
+}
+.keepMeUpToDateOnClassEv {
+  top: 0;
+  left: 26px;
+}
+.checkCircleInput {
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.groupDiv3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 423px;
+  height: 23px;
+}
+.groupDiv2 {
+  position: relative;
+  width: 487px;
+  height: 54px;
+  flex-shrink: 0;
+  font-size: var(--font-size-xs);
+  color: var(--withe);
+}
+.frameDiv1,
+.signUpSectionDiv {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv1 {
+  flex-direction: column;
+  padding: 20px;
+  gap: 39px;
+}
+.signUpSectionDiv {
+  align-self: stretch;
+  background-color: var(--color-tan);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-xl);
+  gap: var(--gap-0);
+}
+.experienceTheLive11Class {
+  position: relative;
+  font-size: var(--subtitel-size);
+  font-weight: 600;
+  display: inline-block;
+}
+.frameDiv2 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+.calligraphyCourseIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameDiv3,
+.frameDiv4 {
+  display: flex;
+  flex-direction: row;
+}
+.frameDiv3 {
+  align-self: stretch;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 67.51px;
+}
+.frameDiv4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 230px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-baloo-bhaijaan);
+}
+.bOOK {
+  position: relative;
+  font-size: var(--subtitel-size);
+  display: inline-block;
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--withe);
+  text-align: center;
+}
+.frameButton1,
+.frameButton2,
+.frameButton3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--color-indigo-400);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton1:hover {
+  background-color: rgba(9, 3, 79, 0.68);
+}
+.frameButton2,
+.frameButton3 {
+  left: 462px;
+}
+.frameButton2:hover,
+.frameButton3:hover {
+  background-color: var(--color-indigo-500);
+}
+.frameButton3 {
+  left: 923px;
+}
+.groupDiv4 {
+  position: relative;
+  width: 1034px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.courseDetailsDiv {
+  align-self: stretch;
+  background-color: var(--color-tan);
+  height: 806px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-xl) 35px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.exquisiteTechLearningLikeN,
+.upcomingClassesB {
+  position: relative;
+  display: inline-block;
+  width: 755px;
+}
+.upcomingClassesB {
+  font-size: var(--source-sans-pro-48px-bold-size);
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--ed-tech-primary);
+  width: 1256px;
+}
+.frameDiv5 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.rectangleDiv {
+  border-radius: var(--br-lg);
+  background-color: var(--ed-tech-primary);
+  opacity: 0.1;
+}
+.rectangleDiv,
+.rectangleDiv1,
+.whyDetails1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 652px;
+  height: 219px;
+}
+.rectangleDiv1 {
+  top: 0.99px;
+  left: 652px;
+  border-radius: var(--br-lg);
+  background-color: var(--ed-tech-primary);
+  width: 659px;
+  opacity: 0.1;
+}
+.groupDiv5 {
+  position: relative;
+  width: 1311px;
+  height: 219.99px;
+  flex-shrink: 0;
+}
+.frameDiv6,
+.frameDiv7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameDiv7 {
+  flex-direction: column;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  color: var(--ed-tech-primary);
+  font-family: var(--source-sans-pro-48px-bold);
+}
+.rectangleDiv2 {
+  border-radius: var(--br-lg);
+  background-color: var(--ed-tech-primary);
+  opacity: 0.1;
+}
+.rectangleDiv2,
+.whyDetails3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 633px;
+  height: 220px;
+}
+.rectangleDiv3,
+.whyDetails4 {
+  position: absolute;
+  top: 0;
+  width: 676px;
+  height: 220px;
+}
+.rectangleDiv3 {
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--ed-tech-primary);
+  opacity: 0.1;
+}
+.whyDetails4 {
+  left: 633px;
+}
+.groupDiv6 {
+  position: relative;
+  width: 1309px;
+  height: 220px;
+  flex-shrink: 0;
+}
+.detailsPageDiv {
+  align-self: stretch;
+  background-color: var(--color-tan);
+  height: 806px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) 100px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: 40px;
+  color: var(--withe);
+  font-family: var(--font-baloo-bhaijaan);
+}
+.vectorsIcon {
+  position: absolute;
+  top: 187px;
+  left: 0;
+  width: 1581px;
+  height: 111px;
+}
+.coursesButton,
+.exploreDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+}
+.coursesButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 74px;
+  left: 9px;
+  font-size: var(--subtitel-size);
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--ed-tech-primary);
+  text-align: center;
+}
+.exploreCourses {
+  position: absolute;
+  top: 39px;
+  left: 100px;
+  width: 117px;
+  height: 104px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  max-width: 100%;
+  max-height: 100%;
+}
+.vectorIcon {
+  position: absolute;
+  height: 92.62%;
+  width: 92.62%;
+  top: 3.69%;
+  right: 3.69%;
+  bottom: 3.69%;
+  left: 3.69%;
+  overflow: hidden;
+}
+.vectorIcon1 {
+  height: 42.62%;
+  width: 42.62%;
+  top: 28.51%;
+  right: 28.51%;
+  bottom: 28.87%;
+  left: 28.87%;
+}
+.instagram,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  overflow: hidden;
+}
+.vectorIcon2 {
+  height: 9.28%;
+  width: 9.33%;
+  top: 22.44%;
+  right: 22.4%;
+  bottom: 68.28%;
+  left: 68.28%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.instagram {
+  text-decoration: none;
+  top: 66px;
+  left: 57px;
+  width: 32px;
+  height: 32px;
+}
+.vectorIcon3 {
+  height: 89.58%;
+  width: 52.08%;
+  top: 5.21%;
+  right: 21.87%;
+  bottom: 5.21%;
+  left: 26.04%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.facebook,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  overflow: hidden;
+}
+.facebook {
+  text-decoration: none;
+  top: 66px;
+  left: 5px;
+  width: 32px;
+  height: 32px;
+}
+.vectorIcon4 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.twitterA {
+  text-decoration: none;
+  position: absolute;
+  top: 66px;
+  left: 110px;
+  width: 32px;
+  height: 32px;
+}
+.followUsDiv,
+.socialMediaDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 45px;
+}
+.socialMediaDiv {
+  top: 39px;
+  left: 1329px;
+  height: 98px;
+}
+.aboutUsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 74px;
+  left: 30px;
+  font-size: var(--subtitel-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--ed-tech-primary);
+  text-align: center;
+  display: inline-block;
+}
+.groupDiv7 {
+  position: absolute;
+  top: 39px;
+  left: 720px;
+  width: 148px;
+  height: 104px;
+}
+.copyright20082022Zetacod {
+  position: absolute;
+  top: calc(50% + 85px);
+  left: calc(50% - 693px);
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 600;
+  color: var(--withe);
+  display: inline-block;
+  width: 1386px;
+}
+.footerDiv {
+  position: relative;
+  background-color: var(--color-tan);
+  width: 1581px;
+  height: 300px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.zetaCodingMainWebsite {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  color: var(--ed-tech-primary);
+  font-family: var(--source-sans-pro-48px-bold);
+}
