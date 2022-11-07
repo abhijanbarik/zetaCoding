@@ -1,0 +1,104 @@
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1581px;
+  height: 806px;
+  object-fit: cover;
+}
+.detailsAboutIEEEProjects {
+  margin: 0;
+  position: absolute;
+  top: 53px;
+  left: -316px;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--withe);
+  text-align: center;
+  display: inline-block;
+  width: 1256px;
+}
+.weOfferABroadPoolOfIEEE {
+  position: absolute;
+  top: 125px;
+  left: 769px;
+  font-weight: 600;
+  text-align: justify;
+  display: inline-block;
+  width: 701px;
+  height: 82px;
+}
+.machineLearningDiv,
+.weOfferProjectsOnTheLates {
+  position: absolute;
+  top: 243px;
+  left: 769px;
+  font-weight: 600;
+  display: inline-block;
+}
+.machineLearningDiv {
+  top: 0;
+  left: 0;
+}
+.artificialIntelligenceP {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.imageProcessingAnd {
+  margin: 0;
+}
+.artificialIntelligenceDeepL {
+  position: absolute;
+  top: 34px;
+  left: 1px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.groupDiv {
+  position: absolute;
+  top: 307px;
+  left: 1089px;
+  width: 278px;
+  height: 433px;
+  mix-blend-mode: darken;
+  font-size: var(--font-size-3xs);
+}
+.rEGISTERNOWB {
+  position: relative;
+  font-size: var(--subtitel-size);
+  display: inline-block;
+  font-family: var(--source-sans-pro-48px-bold);
+  color: var(--withe);
+  text-align: center;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--color-red);
+  position: absolute;
+  top: 661px;
+  left: 671.5px;
+  border-radius: var(--br-sm);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.frameButton:hover {
+  background-color: var(--color-green);
+}
+.iEEEProjectDiv {
+  position: relative;
+  background-color: var(--color-tan);
+  width: 100%;
+  height: 806px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--ed-tech-primary);
+  font-family: var(--source-sans-pro-48px-bold);
+}

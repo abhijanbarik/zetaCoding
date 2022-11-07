@@ -1,0 +1,116 @@
+.frameDiv {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  background: linear-gradient(
+    109.62deg,
+    #f3ce9e,
+    rgba(244, 139, 123, 0.72) 54.72%,
+    rgba(229, 76, 145, 0.78)
+  );
+  width: 1581px;
+  height: 810px;
+  overflow: hidden;
+}
+.illustrationIcon,
+.womanStandingWithLaptop {
+  position: absolute;
+  height: 87.1%;
+  width: 45.98%;
+  top: 6.45%;
+  right: 52.37%;
+  bottom: 6.45%;
+  left: 1.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.womanStandingWithLaptop {
+  height: 31.76%;
+  width: 26.88%;
+  top: 68.24%;
+  right: 67.99%;
+  bottom: 0;
+  left: 5.12%;
+}
+.pWDTextField,
+.usernameTextField {
+  border: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 399px;
+  left: 901px;
+  border-radius: var(--br-sm);
+  width: 500px;
+  height: 60px;
+}
+.pWDTextField {
+  top: 515px;
+  overflow: hidden;
+}
+.zETACODINGB {
+  top: 151px;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  text-transform: capitalize;
+  font-family: var(--source-sans-pro-48px-bold);
+  text-align: center;
+}
+.lOGINDiv,
+.passwordDiv,
+.usernameDiv,
+.zETACODINGB {
+  position: absolute;
+  left: 901px;
+  display: inline-block;
+}
+.lOGINDiv {
+  top: 236px;
+  font-size: var(--titel-size);
+  font-family: var(--titel);
+}
+.passwordDiv,
+.usernameDiv {
+  top: 363px;
+  color: var(--color-black);
+}
+.passwordDiv {
+  top: 479px;
+}
+.loginDiv {
+  position: relative;
+  font-size: var(--subtitel-size);
+  font-family: var(--subtitel);
+  color: var(--withe);
+  text-align: left;
+  display: inline-block;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 239px;
+  background-color: #1239f0;
+  position: absolute;
+  top: 604px;
+  left: 901px;
+  width: 531px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameButton:hover {
+  background-color: rgba(64, 67, 237, 0.72);
+}
+.loginPageDiv {
+  position: relative;
+  background-color: var(--black);
+  width: 100%;
+  height: 806px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitel-size);
+  color: var(--withe);
+  font-family: var(--subtitel);
+}

@@ -1,0 +1,319 @@
+.saly23Icon,
+.torus2Div {
+  position: absolute;
+  overflow: hidden;
+}
+.saly23Icon {
+  height: 100%;
+  width: 102.68%;
+  top: 0;
+  right: -2.68%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.torus2Div {
+  top: 657px;
+  left: 958px;
+  width: 212px;
+  height: 205px;
+}
+.welcomeDiv {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.titleDiv {
+  position: absolute;
+  top: 62px;
+  left: 921.5px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.emailInput,
+.passwordInput {
+  border: 0;
+  background-color: transparent;
+  height: 40px;
+}
+.emailInput {
+  position: absolute;
+  top: 153px;
+  left: 796px;
+  width: 358px;
+}
+.passwordInput {
+  top: 224px;
+}
+.emailInput1,
+.frameDiv,
+.passwordInput {
+  position: absolute;
+  left: 796px;
+  width: 358px;
+}
+.emailInput1 {
+  border: 0;
+  background-color: transparent;
+  top: 293px;
+  height: 40px;
+}
+.frameDiv {
+  top: 560px;
+}
+.warningIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: none;
+}
+.labelDiv {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-family: var(--small);
+  color: var(--schemas-jnt-primary-color);
+  text-align: center;
+  display: inline-block;
+}
+.arrowTopIcon,
+.warningIcon1 {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.arrowTopIcon {
+  border-radius: var(--br-2xs);
+  width: 11px;
+  height: 5px;
+}
+.warningIcon1 {
+  width: 16px;
+  height: 16px;
+}
+.labelDiv1 {
+  position: relative;
+  font-size: var(--small-size);
+  font-family: var(--small);
+  color: var(--schemas-jnt-primary-color);
+  text-align: center;
+  display: inline-block;
+}
+.spacer2pxDiv {
+  align-self: stretch;
+  position: relative;
+  height: 2px;
+  flex-shrink: 0;
+}
+.textspacerDiv {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-0);
+}
+.bageDiv,
+.labelBodyDiv,
+.labelTextIcon,
+.textspacerDiv {
+  align-items: center;
+  justify-content: flex-start;
+}
+.labelTextIcon {
+  border-radius: var(--br-2xs);
+  background-color: var(--withe);
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.bageDiv,
+.labelBodyDiv {
+  overflow: hidden;
+  gap: var(--gap-0);
+}
+.labelBodyDiv {
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+}
+.bageDiv {
+  border-radius: var(--br-2xs);
+  display: none;
+  flex-direction: column;
+}
+.buttonDiv1,
+.contentDiv {
+  box-sizing: border-box;
+  align-items: center;
+}
+.contentDiv {
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 0;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.buttonDiv1 {
+  align-self: stretch;
+  border-radius: 40px;
+  border: 1px solid var(--schemas-jnt-primary-color);
+  padding: 0 var(--padding-md);
+  justify-content: center;
+}
+.buttonDiv,
+.buttonDiv1,
+.frameButton {
+  display: flex;
+  flex-direction: column;
+}
+.buttonDiv {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 601px;
+  left: 796px;
+  width: 358px;
+  align-items: center;
+  justify-content: center;
+}
+.backColorDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--schemas-jnt-primary-color);
+  backdrop-filter: blur(24px);
+  width: 732px;
+  height: 743px;
+}
+.backIcon {
+  position: absolute;
+  top: 190px;
+  left: 262px;
+  width: 221px;
+  height: 221px;
+  opacity: 0.6;
+}
+.groupIcon {
+  position: relative;
+  width: 222px;
+  height: 219px;
+  flex-shrink: 0;
+}
+.artDiv {
+  position: absolute;
+  top: 143px;
+  left: 183px;
+  border-radius: 182px;
+  width: 367px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 74px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.welcomeAboardMy {
+  font-weight: 600;
+}
+.welcomeAboardMyFriend {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.justACoupleOfClicksAndWe {
+  margin: 0;
+  font-size: var(--font-size-4xs);
+}
+.welcomeAboardMyFriendJust {
+  position: absolute;
+  top: 469px;
+  left: 217px;
+  line-height: 200%;
+  color: var(--withe);
+  text-align: center;
+  display: inline-block;
+}
+.emailInput2,
+.emailInput3 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 367px;
+  left: 796px;
+  width: 358px;
+  height: 40px;
+}
+.emailInput3 {
+  top: 440px;
+}
+.emailStack,
+.formDiv {
+  position: absolute;
+  top: 511px;
+  left: 796px;
+}
+.formDiv {
+  top: 0;
+  left: 83px;
+  border-radius: 24px;
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--schemas-jnt-secondary-dark-color-old);
+  box-sizing: border-box;
+  width: 1218px;
+  height: 743px;
+  overflow: hidden;
+}
+.torusIcon {
+  position: absolute;
+  top: 195px;
+  left: -24px;
+  width: 214px;
+  height: 250px;
+  object-fit: cover;
+}
+.groupDiv,
+.zETACODINGDiv {
+  position: absolute;
+  top: 30px;
+  left: 140px;
+  width: 1301px;
+  height: 862px;
+}
+.zETACODINGDiv {
+  height: 10.55%;
+  width: 14.36%;
+  top: 10.05%;
+  left: 21.06%;
+  font-size: var(--source-sans-pro-48px-bold-size);
+  font-family: var(--font-baloo-paaji);
+  color: var(--withe);
+  display: inline-block;
+}
+.registrationPageDiv {
+  position: relative;
+  background-color: #f1f8ff;
+  width: 100%;
+  height: 806px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--subtitel-size);
+  color: var(--text-jnt-primary-text-dark-color);
+  font-family: var(--small);
+}
